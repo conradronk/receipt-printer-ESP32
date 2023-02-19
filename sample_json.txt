@@ -1,0 +1,82 @@
+Sub Fields
+{
+	"dueTime": "22:12:00",
+	"dueDate": "Saturday, June 12th",
+	"issuer": "test JSON",
+	"lead": "",
+	"layout": 1,
+	"items": [
+
+	]
+}
+All Fields?
+{
+	"dueTime": "22:12:00",
+	"dueDate": "Saturday, June 12th",
+	"issuer": "test JSON",
+	"lead": "Not Importanm",
+	"layout": 1,
+	"items": [
+		{
+			"desc": "See if MJ still exists",
+			"adds": [
+				{"desc": "first add"},
+				{"desc": "second add"}
+			]
+		},
+		{
+			"desc": "Get beer?"
+		}
+	]
+}
+
+!! ---- Modified ---- !!
+
+{
+	"dueTime": "22:12:00",
+	"dueDate": "Saturday, June 12th",
+	"issuer": "Adafruit IO",
+	"lead": "Gifts",
+	"layout": 1,
+	"items": [
+		"desc": "Wire things!",
+		"desc": "Get more guages + lead free?"
+	]
+}
+
+{
+	"dueTime": "22:12:00",
+	"dueDate": "Saturday, June 12th",
+	"issuer": "test JSON",
+	"lead": "Not Importanm",
+	"layout": 1,
+	"items": [
+		{
+			"desc": "See if MJ still exists",
+			"adds": [
+				{"desc": "first add"},
+				{"desc": "second add"}
+			]
+		},
+		{
+			"desc": "Get beer?"
+		}
+	]
+}
+
+
+
+
+
+Scraps
+
+{
+"layout": 1,
+}
+
+{"time": 22:12:00,"issuer": "gcal","lead": "Ehhh","id": 5,"layout": 0}
+
+"items": [{"desc": "clean car", "adds": "vaccuum"},{"desc":"empter dishwasher"}]
+
+{"time": "22:12:00","issuer": "gcal","lead": "Ehhh","id": 5,"layout": 0}
+{"sensor-1":22.587,"sensor-2":13.182}
