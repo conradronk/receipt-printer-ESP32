@@ -4,12 +4,25 @@ An MQTT-connected embedded program that recieves, parses, and formats JSON paylo
 
 Current target is an ESP32. Potential for port to ESP8266 given the modest compute resources required.
 
-Arduino framework is used
+Arduino framework is used.
 
 Libraries include:
 
 - ArudinoJSON, maintained by bblanchon https://github.com/bblanchon/ArduinoJson
 - PubSubClient, maintained by Nick O'Leary https://github.com/knolleary/pubsubclient
+
+
+
+# Build Information
+
+Arudino Framework
+
+Libraries:
+
+- ArduinoJSON, maintained by bblanchon https://github.com/bblanchon/ArduinoJson
+- PubSubClient, maintained by Nick O'Leary https://github.com/knolleary/pubsubclient
+
+`code/include/credentials-example.h` should be populated with WiFi and MQTT broker information. Rename to `credentials.h` for proper include. This header file is referenced from `code/src/main.cpp`. May also uncomment relevant section and enter direction in `main.cpp`.
 
 
 
